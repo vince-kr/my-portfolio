@@ -1,0 +1,59 @@
+:root {
+    --body-text: #657b83;
+    --secondary-text: #93a1a1;
+    --background: #fdf6e3;
+    --background-highlight: #eee8d5;
+    --accent: #dc322f;
+/*
+    --accent: #d33682;
+    --accent: #6c71c4;
+    --accent: #2aa198;
+    --accent: #859900;
+    --accent: #268bd2;
+    --accent: #cb4b16;
+    --accent: #586e75;
+    --accent: #b58900;
+    --accent: #cb4b16;
+*/
+}
+
+body {
+    background-color: var(--background);
+}
+
+.container {
+    background-color: var(--background-highlight);
+}
+
+.hero {
+    background-color: var(--background);
+}
+
+.hero p {
+    color: var(--body-text);
+}
+
+.hero .leader {
+    color: var(--accent);
+    font-weight: bold;
+}
+
+.title, .subtitle {
+    color: var(--accent);
+}
+
+p {
+    color: var(--body-text);
+}
+
+.box {
+    background-color: var(--background);
+}
+
+#solo-projects .column, #solo-projects .table {
+    background-color: var(--background-highlight);
+}
+
+.table th, .table td {
+    color: var(--body-text);
+}

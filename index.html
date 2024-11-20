@@ -16,10 +16,12 @@
             <div class="hero-body">
                 <div class="columns">
                     <div class="column is-one-third">
-                        <img src="assets/Profile pic.jpg" />
+                        <img src="assets/Profile pic.jpg"
+                            onerror="this.src='https://t3.ftcdn.net/jpg/05/16/27/58/360_F_516275801_f3Fsp17x6HQK0xQgDQEELoTuERO4SsWV.jpg'" />
                     </div>
                     <div class="column">
-                        <p class="leader text is-size-4-desktop is-size-5-tablet is-size-5-mobile is-family-monospace">
+                        <p
+                            class="leader text is-size-4-desktop is-size-5-tablet is-size-5-mobile is-family-monospace has-text-weight-semibold">
                             Automation of customer service processes requires business empathy, technical ability, and
                             operational know-how.</p>
                         <p class="text mt-3">I combine 10+ years of experience in customer service with a BSc in
@@ -32,14 +34,14 @@
 
         <section class="block mx-6" id="solo-projects">
             <h2 class="title">Solo projects</h2>
-            <a class="box mb-5" href="https://github.com/vince-kr/atu-csd-project">
+            <a class="box has-border mb-5" href="https://github.com/vince-kr/atu-csd-project">
                 <h3 class="subtitle">atu-csd-project</h3>
                 <div class="columns">
                     <div class="column">
-                        <p class="text mt-2">Record activities about your homestead and gain insights through a
+                        <p class="text p-2">Record activities about your homestead and gain insights through a
                             HuggingFace model designed for table parsing</p>
                     </div>
-                    <div class="column">
+                    <div class="column is-narrow">
                         <table class="table">
                             <tr>
                                 <th>Language</th>
@@ -58,12 +60,12 @@
                     <div class="column">
                         <table class="table">
                             <tr>
-                                <th>MyPy</th>
-                                <td>Success: no issues found in 28 source files</td>
-                            </tr>
-                            <tr>
                                 <th>Tests</th>
                                 <td>Success: Ran 55 tests in 0.876s</td>
+                            </tr>
+                            <tr>
+                                <th>MyPy</th>
+                                <td>Success: no issues found in 28 source files</td>
                             </tr>
                         </table>
                     </div>
@@ -73,11 +75,11 @@
                 <h3 class="subtitle">weather-and-tide</h3>
                 <div class="columns">
                     <div class="column">
-                        <p class="text mt-2">Retrieve (Irish) weather and (global) tide forecasts for configurable
+                        <p class="text p-2">Retrieve (Irish) weather and (global) tide forecasts for configurable
                             locations
                             and send them through email</p>
                     </div>
-                    <div class="column">
+                    <div class="column is-narrow">
                         <table class="table">
                             <tr>
                                 <th>Language</th>
@@ -96,12 +98,12 @@
                     <div class="column">
                         <table class="table">
                             <tr>
-                                <th>MyPy</th>
-                                <td>Success: no issues found in 13 source files</td>
-                            </tr>
-                            <tr>
                                 <th>Tests</th>
                                 <td>Success: Ran 19 tests in 0.053s</td>
+                            </tr>
+                            <tr>
+                                <th>MyPy</th>
+                                <td>Success: no issues found in 13 source files</td>
                             </tr>
                         </table>
                     </div>
@@ -118,7 +120,18 @@
         </section>
         <section class="block mx-6" id="about-me">
             <h2 class="title">More about me</h2>
+            <div class="columns">
+                <div class="column is-two-thirds">
+                <p class="text has-text-justified">All but the last two years of my career have been spent in customer service. Throughout this
+                    time I've had a passion for programming in general and for automation in particular. In March 2023 I
+                    became solely responsible for implementing and designing automations for my team using a low-code,
+                    in-house tool similar to UiPath. I graduated with a BSc in Contemporary Software Development with first
+                    class honours in May 2024.</p>
+                    </div>
+                    <div class="column"></div>
+            </div>
         </section>
+        <div class="footer"></div>
     </div>
 </body>
 

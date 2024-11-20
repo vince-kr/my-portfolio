@@ -35,7 +35,6 @@ body {
 
 .hero .leader {
     color: var(--accent);
-    font-weight: bold;
 }
 
 .title, .subtitle {
@@ -47,13 +46,21 @@ p {
 }
 
 .box {
-    background-color: var(--background);
+    background-color: var(--background-highlight);
 }
 
-#solo-projects .column, #solo-projects .table {
+#solo-projects .column {
     background-color: var(--background-highlight);
+}
+
+#solo-projects p, #solo-projects table {
+    background-color: var(--background);
 }
 
 .table th, .table td {
     color: var(--body-text);
+}
+
+.footer {
+    background-color: var(--background-highlight);
 }

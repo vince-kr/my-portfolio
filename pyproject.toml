@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "my-portfolio"
+version = "0.1.0"
+description = "Scripts to generate and manage my portfolio page"
+authors = ["vince-kr <vince@krijnsen.com>"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+jinja2 = "^3.1.4"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

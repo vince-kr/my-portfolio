@@ -37,8 +37,12 @@ body {
     color: var(--accent);
 }
 
-.title, .subtitle {
+.title {
     color: var(--accent);
+}
+
+.subtitle {
+    color: var(--body-text);
 }
 
 p {
@@ -46,15 +50,21 @@ p {
 }
 
 .box {
-    background-color: var(--background-highlight);
+    background-color: var(--background);
 }
 
 #solo-projects .column {
     background-color: var(--background-highlight);
 }
 
-#solo-projects p, #solo-projects table {
-    background-color: var(--background);
+#solo-projects table {
+    background-color: var(--background-highlight);
+}
+
+.tag {
+    color: var(--body-text);
+    background-color: var(--background-highlight);
+    border: 1px solid var(--body-text);
 }
 
 .table th, .table td {

@@ -20,8 +20,9 @@
                             onerror="this.src='https://t3.ftcdn.net/jpg/05/16/27/58/360_F_516275801_f3Fsp17x6HQK0xQgDQEELoTuERO4SsWV.jpg'" />
                     </div>
                     <div class="column">
-                        <p
-                                class="leader text is-size-4-desktop is-size-5-tablet is-size-5-mobile is-family-monospace has-text-weight-semibold">{{ static.leader }}</p>
+                        <p class="leader text is-size-4-desktop is-size-5-tablet is-size-5-mobile is-family-monospace has-text-weight-semibold">
+                            {{ static.leader }}
+                        </p>
                         <p class="text mt-3">{{ static.follower }}</p>
                     </div>
                 </div>
@@ -31,13 +32,15 @@
         <section class="block mx-6" id="solo-projects">
             <h2 class="title">Solo projects</h2>
             <a class="box has-border mb-5" href="https://github.com/vince-kr/atu-csd-project">
-                <h3 class="subtitle">atu-csd-project</h3>
+                <h3 class="subtitle is-4">atu-csd-project</h3>
                 <div class="columns">
                     <div class="column">
+                        <h4 class="subtitle mb-2">Description</h4>
                         <p class="text p-2">Record activities about your homestead and gain insights through a
                             HuggingFace model designed for table parsing</p>
                     </div>
                     <div class="column is-narrow">
+                        <h4 class="subtitle mb-2">Technology</h4>
                         <table class="table">
                             <tr>
                                 <th>Language</th>
@@ -54,28 +57,25 @@
                         </table>
                     </div>
                     <div class="column">
-                        <table class="table">
-                            <tr>
-                                <th>Tests</th>
-                                <td>Success: Ran 55 tests in 0.876s</td>
-                            </tr>
-                            <tr>
-                                <th>MyPy</th>
-                                <td>Success: no issues found in 28 source files</td>
-                            </tr>
-                        </table>
+                        <h4 class="subtitle mb-2">Keywords</h4>
+                        <span class="tag is-medium m-2">TDD</span>
+                        <span class="tag is-medium m-2">HuggingFace</span>
+                        <span class="tag is-medium m-2">MyPy</span>
+                        <span class="tag is-medium m-2">TaPas</span>
                     </div>
                 </div>
             </a>
             <a class="box" href="https://github.com/vince-kr/weather-and-tide">
-                <h3 class="subtitle">weather-and-tide</h3>
+                <h3 class="subtitle is-4">weather-and-tide</h3>
                 <div class="columns">
                     <div class="column">
+                        <h4 class="subtitle mb-2">Description</h4>
                         <p class="text p-2">Retrieve (Irish) weather and (global) tide forecasts for configurable
                             locations
                             and send them through email</p>
                     </div>
                     <div class="column is-narrow">
+                        <h4 class="subtitle mb-2">Technology</h4>
                         <table class="table">
                             <tr>
                                 <th>Language</th>
@@ -92,16 +92,11 @@
                         </table>
                     </div>
                     <div class="column">
-                        <table class="table">
-                            <tr>
-                                <th>Tests</th>
-                                <td>Success: Ran 19 tests in 0.053s</td>
-                            </tr>
-                            <tr>
-                                <th>MyPy</th>
-                                <td>Success: no issues found in 13 source files</td>
-                            </tr>
-                        </table>
+                        <h4 class="subtitle mb-2">Keywords</h4>
+                        <span class="tag is-medium m-2">TDD</span>
+                        <span class="tag is-medium m-2">MyPy</span>
+                        <span class="tag is-medium m-2">Requests</span>
+                        <span class="tag is-medium m-2">Email</span>
                     </div>
                 </div>
             </a>
@@ -119,8 +114,8 @@
             <div class="columns">
                 <div class="column is-two-thirds">
                     <p class="text has-text-justified">{{ static.about_me }}</p>
-                    </div>
-                    <div class="column"></div>
+                </div>
+                <div class="column"></div>
             </div>
         </section>
         <div class="footer"></div>

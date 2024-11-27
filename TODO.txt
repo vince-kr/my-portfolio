@@ -1,0 +1,7 @@
+- Split out page elements into separate objects:
+    - Leader
+    - Description
+    - GitHub projects
+    - About me
+- Use calls to GitHub API endpoints to dynamically populate the GitHub projects
+    objects

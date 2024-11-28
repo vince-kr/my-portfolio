@@ -1,7 +1,7 @@
 {
     "solo": [
         {
-            "url": "https://github.com/vince-kr/atu-csd-project",
+            "url": "href=\"https://github.com/vince-kr/atu-csd-project\"",
             "name": "atu-csd-project",
             "description": "Record activities about your homestead and gain insights through a HuggingFace model designed for table parsing",
             "technology": [
@@ -26,7 +26,7 @@
             ]
         },
         {
-            "url": "https://github.com/vince-kr/weather-and-tide",
+            "url": "href=\"https://github.com/vince-kr/weather-and-tide\"",
             "name": "weather-and-tide",
             "description": "Retrieve (Irish) weather and (global) tide forecasts for configurable locations and send them through email",
             "technology": [
@@ -51,5 +51,97 @@
             ]
         }
     ],
-    "collab": []
+    "collab": [
+        {
+            "url": "",
+            "name": "🔒 developer-productivity",
+            "team_size": 4,
+            "contribution": [
+                [
+                    "me",
+                    77,
+                    "168,609",
+                    "154,889"
+                ],
+                [
+                    "total",
+                    125,
+                    "191,416",
+                    "157,345"
+                ],
+                [
+                    "me / total",
+                    "62%",
+                    "88%",
+                    "98%"
+                ]
+            ],
+            "technology": [
+                [
+                    "Language",
+                    "C#"
+                ],
+                [
+                    "Framework",
+                    "Razor"
+                ],
+                [
+                    "License",
+                    "none"
+                ]
+            ],
+            "description": "Analytics and insights on GitHub repo activity: issue cycle time, issues solved per week, developer productivity, and release frequency",
+            "keywords": [
+                "Testing",
+                "Async",
+                "HTTP requests",
+                "Bootstrap"
+            ]
+        },
+        {
+            "url": "href=\"https://github.com/vince-kr/swdev-ca2-library\"",
+            "name": "library-pos",
+            "team_size": 3,
+            "contribution": [
+                [
+                    "me",
+                    84,
+                    "3,910",
+                    "2,485"
+                ],
+                [
+                    "total",
+                    153,
+                    "8,854",
+                    "4,660"
+                ],
+                [
+                    "me / total",
+                    "55%",
+                    "44%",
+                    "53%"
+                ]
+            ],
+            "technology": [
+                [
+                    "Language",
+                    "Java"
+                ],
+                [
+                    "Framework",
+                    "none"
+                ],
+                [
+                    "License",
+                    "none"
+                ]
+            ],
+            "description": "Simple CLI library management system with a focus on separation of concerns",
+            "keywords": [
+                "Testing",
+                "CLI",
+                "Standard input"
+            ]
+        }
+    ]
 }

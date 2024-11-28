@@ -53,11 +53,11 @@ p {
     background-color: var(--background);
 }
 
-#solo-projects .column {
+#solo-projects .column, #collaborations .column {
     background-color: var(--background-highlight);
 }
 
-#solo-projects table {
+#solo-projects table, #collaborations table {
     background-color: var(--background-highlight);
 }
 

@@ -32,76 +32,36 @@
 
         <section class="block mx-6" id="solo-projects">
             <h2 class="title">Solo projects</h2>
-            <a class="box has-border mb-5" href="https://github.com/vince-kr/atu-csd-project">
-                <h3 class="subtitle is-4">atu-csd-project</h3>
+            {% for project in projects.solo %}
+            <a class="box has-border mb-5" href="{{project.url}}">
+                <h3 class="subtitle is-4">{{project.name}}</h3>
                 <div class="columns">
                     <div class="column">
                         <h4 class="subtitle mb-2">Description</h4>
-                        <p class="text p-2">Record activities about your homestead and gain insights through a
-                            HuggingFace model designed for table parsing</p>
+                        <p class="text p-2">{{project.description}}</p>
                     </div>
                     <div class="column is-narrow">
                         <h4 class="subtitle mb-2">Technology</h4>
                         <table class="table">
+                            {% for header, value in project.technology %}
                             <tr>
-                                <th>Language</th>
-                                <td>Python</td>
+                                <th>{{header}}</th>
+                                <td>{{value}}</td>
                             </tr>
-                            <tr>
-                                <th>Framework</th>
-                                <td>Flask</td>
-                            </tr>
-                            <tr>
-                                <th>License</th>
-                                <td>MIT</td>
-                            </tr>
+                            {% endfor %}
                         </table>
                     </div>
                     <div class="column">
                         <h4 class="subtitle mb-2">Keywords</h4>
-                        <span class="tag is-medium m-2">TDD</span>
-                        <span class="tag is-medium m-2">HuggingFace</span>
-                        <span class="tag is-medium m-2">MyPy</span>
-                        <span class="tag is-medium m-2">TaPas</span>
+                        {% for keyword in project.keywords %}
+                        <span class="tag is-medium m-2">{{keyword}}</span>
+                        {% endfor %}
                     </div>
                 </div>
             </a>
-            <a class="box" href="https://github.com/vince-kr/weather-and-tide">
-                <h3 class="subtitle is-4">weather-and-tide</h3>
-                <div class="columns">
-                    <div class="column">
-                        <h4 class="subtitle mb-2">Description</h4>
-                        <p class="text p-2">Retrieve (Irish) weather and (global) tide forecasts for configurable
-                            locations
-                            and send them through email</p>
-                    </div>
-                    <div class="column is-narrow">
-                        <h4 class="subtitle mb-2">Technology</h4>
-                        <table class="table">
-                            <tr>
-                                <th>Language</th>
-                                <td>Python</td>
-                            </tr>
-                            <tr>
-                                <th>Framework</th>
-                                <td>none</td>
-                            </tr>
-                            <tr>
-                                <th>License</th>
-                                <td>MIT</td>
-                            </tr>
-                        </table>
-                    </div>
-                    <div class="column">
-                        <h4 class="subtitle mb-2">Keywords</h4>
-                        <span class="tag is-medium m-2">TDD</span>
-                        <span class="tag is-medium m-2">MyPy</span>
-                        <span class="tag is-medium m-2">Requests</span>
-                        <span class="tag is-medium m-2">Email</span>
-                    </div>
-                </div>
-            </a>
+            {% endfor %}
         </section>
+
         <section class="block mx-6" id="collaborations">
             <h2 class="title">Collaborations</h2>
             <div class="box has-border mb-5">
@@ -218,7 +178,8 @@
                     </div>
                     <div class="column is-half">
                         <h4 class="subtitle mb-2">Description</h4>
-                        <p class="text p-2">Simple CLI library management system with a focus on separation of concerns</p>
+                        <p class="text p-2">Simple CLI library management system with a focus on separation of concerns
+                        </p>
                     </div>
                     <div class="column">
                         <h4 class="subtitle mb-2">Keywords</h4>

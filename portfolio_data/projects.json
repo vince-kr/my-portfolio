@@ -1,0 +1,55 @@
+{
+    "solo": [
+        {
+            "url": "https://github.com/vince-kr/atu-csd-project",
+            "name": "atu-csd-project",
+            "description": "Record activities about your homestead and gain insights through a HuggingFace model designed for table parsing",
+            "technology": [
+                [
+                    "Language",
+                    "Python"
+                ],
+                [
+                    "Framework",
+                    "Flask"
+                ],
+                [
+                    "License",
+                    "MIT"
+                ]
+            ],
+            "keywords": [
+                "TDD",
+                "HuggingFace",
+                "MyPy",
+                "TaPas"
+            ]
+        },
+        {
+            "url": "https://github.com/vince-kr/weather-and-tide",
+            "name": "weather-and-tide",
+            "description": "Retrieve (Irish) weather and (global) tide forecasts for configurable locations and send them through email",
+            "technology": [
+                [
+                    "Language",
+                    "Python"
+                ],
+                [
+                    "Framework",
+                    "none"
+                ],
+                [
+                    "License",
+                    "MIT"
+                ]
+            ],
+            "keywords": [
+                "TDD",
+                "MyPy",
+                "Requests",
+                "Email"
+            ]
+        }
+    ],
+    "collab": []
+}

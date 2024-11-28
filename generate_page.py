@@ -12,8 +12,12 @@ with open("portfolio_data/index.template.html") as tf:
 with open("portfolio_data/static.json") as sf:
     static_data = json.load(sf)
 
+with open("portfolio_data/projects.json") as pf:
+    projects_data = json.load(pf)
+
 page_data = {
         "static": static_data,
+        "projects": projects_data,
         }
 
 with open("portfolio_website/index.html", "w") as sf:
